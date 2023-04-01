@@ -314,8 +314,6 @@ body.dark .home .text{
     color: var(--text-color);
 }
     
- /* Progress Bar */.pRs{border:.1px solid #eceff1;top:0;left:0;z-index:999;height:6px;display:-webkit-box;display:-ms-flexbox;display:flex;background:#e9ecef}.pBar{top:0;left:0;z-index:2;border-radius:.25rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content;background:#9C27B0;transition:width .6s ease}.pSt{background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-size:50px 50px}.pAn{animation:AnPr 2s linear infinite}.pSt1{background-image:linear-gradient(45deg,rgba(204,204,204,.15) 25%,transparent 25%,transparent 50%,rgba(204,204,204,.15) 50%,rgba(204,204,204,.15) 75%,transparent 75%,transparent);background-size:50px 50px}.drK .pBar{background:#F57C00}.drK .pSt{background-image:linear-gradient(45deg,rgba(255,0,0,.15) 25%,transparent 25%,transparent 50%,rgba(255,0,0,.15) 50%,rgba(255,0,0,.15) 75%,transparent 75%,transparent);background-size:50px 50px}         
-
 /*-- VARIABLES CSS--*/
 /* Colores (All Rights Reserved By TechySamir) */
 :root{
@@ -350,12 +348,7 @@ body.dark .home .text{
 *,::after,::before{
     box-sizing: border-box;
 }
-body{
-    margin: 2rem 0 0 0;
-    background-color: #fff;
-    color: var(--dark-color);
-    font-family: var(--body-font);
-}
+
 h1{
     font-size: var(--h1-font-size);
 }
