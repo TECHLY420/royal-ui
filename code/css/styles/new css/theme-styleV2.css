@@ -313,13 +313,8 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
- 
-           @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-      /* Footer*/@media only screen and (max-width: 580px).footer {padding-top: 0.5rem;padding-bottom: 0.5rem;}.footer {color: black;font-size: 0.875rem;padding-top: 1rem;padding-bottom: 1rem;text-align: center;box-shadow: 0 0.5rem 1rem #D1D9E6;border: 3px solid;border-color: whitesmoke;border-radius: 10px;padding: 5px;}.footer {display: block;}
-        
-     /* Back to Top */ .Ttop{display:flex;align-items:center;justify-content:center;position:fixed;right:20px;bottom:50px;width:45px;height:45px;border-radius:50%;cursor:pointer;visibility:hidden;opacity:0;z-index:5;transform:scale(0);transition:transform .3s ease, opacity .3s ease,visibility .3s ease,margin-bottom 1s ease} .Ttop.vsbl{visibility:visible;opacity:1;transform:scale(1)}.Ttop:hover{opacity:.8} .Ttop svg{height:100% !important;width:100% !important;-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);stroke-width:1.5;cursor:pointer} .Ttop svg .b{fill:#fff;stroke:#e6e6e6;opacity:.9} .Ttop svg .c{fill:none;stroke:#6200ee;stroke-dasharray:100 100;stroke-dashoffset:100;stroke-linecap:round} .Ttop svg .d{fill:none;stroke:#08102b}
-        
-     /* Progress Bar */.pRs{border:.1px solid #eceff1;top:0;left:0;z-index:999;height:6px;display:-webkit-box;display:-ms-flexbox;display:flex;background:#e9ecef}.pBar{top:0;left:0;z-index:2;border-radius:.25rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content;background:#9C27B0;transition:width .6s ease}.pSt{background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-size:50px 50px}.pAn{animation:AnPr 2s linear infinite}.pSt1{background-image:linear-gradient(45deg,rgba(204,204,204,.15) 25%,transparent 25%,transparent 50%,rgba(204,204,204,.15) 50%,rgba(204,204,204,.15) 75%,transparent 75%,transparent);background-size:50px 50px}.drK .pBar{background:#F57C00}.drK .pSt{background-image:linear-gradient(45deg,rgba(255,0,0,.15) 25%,transparent 25%,transparent 50%,rgba(255,0,0,.15) 50%,rgba(255,0,0,.15) 75%,transparent 75%,transparent);background-size:50px 50px}         
+    
+ /* Progress Bar */.pRs{border:.1px solid #eceff1;top:0;left:0;z-index:999;height:6px;display:-webkit-box;display:-ms-flexbox;display:flex;background:#e9ecef}.pBar{top:0;left:0;z-index:2;border-radius:.25rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content;background:#9C27B0;transition:width .6s ease}.pSt{background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-size:50px 50px}.pAn{animation:AnPr 2s linear infinite}.pSt1{background-image:linear-gradient(45deg,rgba(204,204,204,.15) 25%,transparent 25%,transparent 50%,rgba(204,204,204,.15) 50%,rgba(204,204,204,.15) 75%,transparent 75%,transparent);background-size:50px 50px}.drK .pBar{background:#F57C00}.drK .pSt{background-image:linear-gradient(45deg,rgba(255,0,0,.15) 25%,transparent 25%,transparent 50%,rgba(255,0,0,.15) 50%,rgba(255,0,0,.15) 75%,transparent 75%,transparent);background-size:50px 50px}         
 
 /*-- VARIABLES CSS--*/
 /* Colores (All Rights Reserved By TechySamir) */
@@ -407,8 +402,7 @@ a{
     background-color: var(--dark-color);
     margin-left: .25rem;
 }
-        
-.ui-theme-shop{position:sticky! important}        
+              
 
 /*-- COMPONENT (All Rights Reserved By TechySamir) --*/
 .card{
