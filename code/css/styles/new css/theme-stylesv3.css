@@ -115,7 +115,7 @@ article:nth-child(4){
 }
 .card__name{
     position: absolute;
-    left: -25%;
+    left: -30%;
     top: 0;
     width: 3.5rem;
     height: 100%;
