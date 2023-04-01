@@ -523,6 +523,117 @@ article:nth-child(4){
     background-color: var(--fourth-color);
 }       
 
+
+.card-first:hover {
+    box-shadow: 0 0.5rem 1rem #D1D9E6;
+}
+.card-first:hover .card__name{
+    left: 0;
+}
+.card-first:hover .card__img{
+    transform: rotate(30deg);
+    margin-left: 3.5rem;
+}
+.card-fisrt:hover .card__precis{
+    margin-left: 3.5rem;
+    padding: 0 1.5rem;
+}
+
+.card-first {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--first-color);
+}
+
+
+
+.card-third:hover {
+    box-shadow: 0 0.5rem 1rem #D1D9E6;
+}
+.card-third:hover .card__name{
+    left: 0;
+}
+.card-third:hover .card__img{
+    transform: rotate(30deg);
+    margin-left: 3.5rem;
+}
+.card-third:hover .card__precis{
+    margin-left: 3.5rem;
+    padding: 0 1.5rem;
+}
+
+.card-third {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--second-color);
+
+}
+
+.card-fifth:hover {
+    box-shadow: 0 0.5rem 1rem #D1D9E6;
+}
+.card-fifth:hover .card__name{
+    left: 0;
+}
+.card-fifth:hover .card__img{
+    transform: rotate(30deg);
+    margin-left: 3.5rem;
+}
+.card-fifth:hover .card__precis{
+    margin-left: 3.5rem;
+    padding: 0 1.5rem;
+}
+
+.card-fifth {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--third-color);
+
+}
+
+
+.card-sixth:hover {
+    box-shadow: 0 0.5rem 1rem #D1D9E6;
+}
+.card-sixth:hover .card__name{
+    left: 0;
+}
+.card-sixth:hover .card__img{
+    transform: rotate(30deg);
+    margin-left: 3.5rem;
+}
+.card-sixth:hover .card__precis{
+    margin-left: 3.5rem;
+    padding: 0 1.5rem;
+}
+
+.card-sixth {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--second-color);
+
+}
+
 .card-second:hover {
     box-shadow: 0 0.5rem 1rem #D1D9E6;
 }
