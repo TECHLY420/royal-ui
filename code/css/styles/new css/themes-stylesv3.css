@@ -93,9 +93,6 @@ a{
     border-radius: 1rem;
     overflow: hidden;
 }
-article:nth-child(1){
-    background-color: var(--first-color);
-}
 article:nth-child(2){
     background-color: var(--second-color);
 }
